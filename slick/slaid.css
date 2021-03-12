@@ -1,0 +1,99 @@
+.slider_responsive {
+    width: 80%;
+    margin: auto;
+}
+
+.prev {
+    display: block;
+    position: absolute;
+    z-index: 1000;
+    top:50%;
+    left: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 30px;
+    color: red;
+  }
+  
+.prev:hover {
+    font-size: 35px;
+    color: orange;
+    transition: 1s;
+}
+
+.next {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    cursor: pointer;
+    font-size: 30px;
+    color: red;
+}
+
+.next:hover {
+    font-size: 35px;
+    color: orange;
+    transition: 1s;
+}
+
+.slider_responsive_bottom {
+    width: 100%;
+}
+
+.prev_bottom {
+    display: block;
+    position: absolute;
+    z-index: 1000;
+    top:50%;
+    left: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 30px;
+    color: black;
+  }
+  
+.prev_bottom:hover {
+    font-size: 35px;
+    color: orange;
+    transition: 1s;
+}
+
+.next_bottom {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    cursor: pointer;
+    font-size: 30px;
+    color: black;
+}
+
+.next_bottom:hover {
+    font-size: 35px;
+    color: orange;
+    transition: 1s;
+}
+
+@media only screen and (max-width: 480px) {
+    .prev_bottom {
+      font-size: 15px;
+    }
+    .next_bottom {
+        font-size: 15px;
+    }
+    .prev_bottom:hover {
+        font-size: 15px;
+        color: orange;
+        transition: 1s;
+    }
+    .next_bottom:hover {
+        font-size: 15px;
+        color: orange;
+        transition: 1s;
+    }
+  }
